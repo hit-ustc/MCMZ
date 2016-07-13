@@ -1,3 +1,11 @@
+#About Project
+
+This project is mainly used to learn iOS development. We imitate [mochameizhuang](http://www.immocha.com/) app, this project is only for learn to study, without any commercial use. 
+
+At present, we have completed a part of functions of the project. Later, we will gradually improve it.
+
+Of course, there are many mistakes and shortcomings, we can learn and progress together, thank you!
+
 #About us
 
 This project was done by [@Aesthetic92](https://github.com/aesthetic92) and [@Soverying](https://github.com/Soverying).
