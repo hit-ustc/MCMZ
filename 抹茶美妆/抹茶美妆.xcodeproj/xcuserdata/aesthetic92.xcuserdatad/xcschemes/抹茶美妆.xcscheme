@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0CB597C11D2EC8FE00F0CB63"
-               BuildableName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;.app"
+               BuildableName = "MCMZ.app"
                BlueprintName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;"
                ReferencedContainer = "container:&#x62b9;&#x8336;&#x7f8e;&#x5986;.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0CB597C11D2EC8FE00F0CB63"
-            BuildableName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;.app"
+            BuildableName = "MCMZ.app"
             BlueprintName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;"
             ReferencedContainer = "container:&#x62b9;&#x8336;&#x7f8e;&#x5986;.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0CB597C11D2EC8FE00F0CB63"
-            BuildableName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;.app"
+            BuildableName = "MCMZ.app"
             BlueprintName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;"
             ReferencedContainer = "container:&#x62b9;&#x8336;&#x7f8e;&#x5986;.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0CB597C11D2EC8FE00F0CB63"
-            BuildableName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;.app"
+            BuildableName = "MCMZ.app"
             BlueprintName = "&#x62b9;&#x8336;&#x7f8e;&#x5986;"
             ReferencedContainer = "container:&#x62b9;&#x8336;&#x7f8e;&#x5986;.xcodeproj">
          </BuildableReference>

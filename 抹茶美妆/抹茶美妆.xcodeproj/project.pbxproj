@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3949051D3527D4005FFE41 /* MCTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3949031D3527D4005FFE41 /* MCTopicCell.m */; };
+		0C3949061D3527D4005FFE41 /* MCTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3949041D3527D4005FFE41 /* MCTopicCell.xib */; };
+		0C3949091D3527F0005FFE41 /* MCTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3949081D3527F0005FFE41 /* MCTopicModel.m */; };
+		0C39490C1D35287E005FFE41 /* MCTopicHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39490B1D35287E005FFE41 /* MCTopicHeadView.m */; };
+		0C39490E1D35288D005FFE41 /* MCTopicHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C39490D1D35288D005FFE41 /* MCTopicHeadView.xib */; };
+		0C3949171D3532C0005FFE41 /* 茶社.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3949121D3532C0005FFE41 /* 茶社.json */; };
+		0C3949181D3532C0005FFE41 /* 首页.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3949131D3532C0005FFE41 /* 首页.json */; };
+		0C3949191D3532C0005FFE41 /* 首页分类.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3949141D3532C0005FFE41 /* 首页分类.json */; };
+		0C39491A1D3532C0005FFE41 /* 值得买.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3949151D3532C0005FFE41 /* 值得买.json */; };
+		0C39491B1D3532C0005FFE41 /* 值得买类别.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3949161D3532C0005FFE41 /* 值得买类别.json */; };
+		0C3949241D353657005FFE41 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3949231D353657005FFE41 /* NSArray+Extension.m */; };
+		0C3949271D353A5F005FFE41 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3949261D353A5F005FFE41 /* NSString+Extension.m */; };
+		0C623D081D34E27C00C0B868 /* MCTopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C623D071D34E27C00C0B868 /* MCTopicTableViewController.m */; };
 		0CB597C71D2EC8FE00F0CB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB597C61D2EC8FE00F0CB63 /* main.m */; };
 		0CB597D01D2EC8FE00F0CB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB597CE1D2EC8FE00F0CB63 /* Main.storyboard */; };
 		0CB597D21D2EC8FE00F0CB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB597D11D2EC8FE00F0CB63 /* Assets.xcassets */; };
@@ -14,6 +27,7 @@
 		0CB597E01D2EC8FE00F0CB63 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB597DF1D2EC8FE00F0CB63 /* ____Tests.m */; };
 		0CB597EB1D2EC8FE00F0CB63 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB597EA1D2EC8FE00F0CB63 /* ____UITests.m */; };
 		0CDF628C1D2F575200C68874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF626D1D2F575200C68874 /* AppDelegate.m */; };
+		0CF1D0451D33E88E00EB2E02 /* MCTopLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1D0441D33E88E00EB2E02 /* MCTopLabel.m */; };
 		0CF2FC9B1D3019EF00628D5E /* MCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC9A1D3019EF00628D5E /* MCNavigationController.m */; };
 		0CF2FC9E1D301A0500628D5E /* MCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FC9D1D301A0500628D5E /* MCHomeViewController.m */; };
 		0CF2FCA11D301A1D00628D5E /* MCCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FCA01D301A1D00628D5E /* MCCommunityViewController.m */; };
@@ -21,6 +35,7 @@
 		0CF2FCA71D301A4000628D5E /* MCPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FCA61D301A4000628D5E /* MCPostViewController.m */; };
 		0CF2FCAD1D301A7100628D5E /* MCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FCAC1D301A7100628D5E /* MCProfileViewController.m */; };
 		0CF2FCB01D301AEE00628D5E /* MCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2FCAF1D301AEE00628D5E /* MCTabBarController.m */; };
+		5F9F6E2080647FF40F921EF9 /* libPods-抹茶美妆.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8700CE5D1ECDA31EFD3F57B /* libPods-抹茶美妆.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB597C21D2EC8FE00F0CB63 /* 抹茶美妆.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抹茶美妆.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3949021D3527D4005FFE41 /* MCTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTopicCell.h; sourceTree = "<group>"; };
+		0C3949031D3527D4005FFE41 /* MCTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTopicCell.m; sourceTree = "<group>"; };
+		0C3949041D3527D4005FFE41 /* MCTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCTopicCell.xib; sourceTree = "<group>"; };
+		0C3949071D3527F0005FFE41 /* MCTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTopicModel.h; sourceTree = "<group>"; };
+		0C3949081D3527F0005FFE41 /* MCTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTopicModel.m; sourceTree = "<group>"; };
+		0C39490A1D35287E005FFE41 /* MCTopicHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTopicHeadView.h; sourceTree = "<group>"; };
+		0C39490B1D35287E005FFE41 /* MCTopicHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTopicHeadView.m; sourceTree = "<group>"; };
+		0C39490D1D35288D005FFE41 /* MCTopicHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCTopicHeadView.xib; sourceTree = "<group>"; };
+		0C3949121D3532C0005FFE41 /* 茶社.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "茶社.json"; sourceTree = "<group>"; };
+		0C3949131D3532C0005FFE41 /* 首页.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "首页.json"; sourceTree = "<group>"; };
+		0C3949141D3532C0005FFE41 /* 首页分类.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "首页分类.json"; sourceTree = "<group>"; };
+		0C3949151D3532C0005FFE41 /* 值得买.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "值得买.json"; sourceTree = "<group>"; };
+		0C3949161D3532C0005FFE41 /* 值得买类别.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "值得买类别.json"; sourceTree = "<group>"; };
+		0C3949221D353657005FFE41 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		0C3949231D353657005FFE41 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		0C3949251D353A5F005FFE41 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		0C3949261D353A5F005FFE41 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		0C623D061D34E27C00C0B868 /* MCTopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTopicTableViewController.h; sourceTree = "<group>"; };
+		0C623D071D34E27C00C0B868 /* MCTopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTopicTableViewController.m; sourceTree = "<group>"; };
+		0CB597C21D2EC8FE00F0CB63 /* MCMZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB597C61D2EC8FE00F0CB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB597CF1D2EC8FE00F0CB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CB597D11D2EC8FE00F0CB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +89,8 @@
 		0CB597EC1D2EC8FE00F0CB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CDF626C1D2F575200C68874 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CDF626D1D2F575200C68874 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CF1D0431D33E88E00EB2E02 /* MCTopLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTopLabel.h; sourceTree = "<group>"; };
+		0CF1D0441D33E88E00EB2E02 /* MCTopLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTopLabel.m; sourceTree = "<group>"; };
 		0CF2FC951D30199100628D5E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0CF2FC991D3019EF00628D5E /* MCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNavigationController.h; sourceTree = "<group>"; };
 		0CF2FC9A1D3019EF00628D5E /* MCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNavigationController.m; sourceTree = "<group>"; };
@@ -70,6 +106,9 @@
 		0CF2FCAC1D301A7100628D5E /* MCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProfileViewController.m; sourceTree = "<group>"; };
 		0CF2FCAE1D301AEE00628D5E /* MCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabBarController.h; sourceTree = "<group>"; };
 		0CF2FCAF1D301AEE00628D5E /* MCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabBarController.m; sourceTree = "<group>"; };
+		64F585E0050AD54EA60B484B /* Pods-抹茶美妆.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-抹茶美妆.debug.xcconfig"; path = "Pods/Target Support Files/Pods-抹茶美妆/Pods-抹茶美妆.debug.xcconfig"; sourceTree = "<group>"; };
+		8B14D121144969213BE2357C /* Pods-抹茶美妆.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-抹茶美妆.release.xcconfig"; path = "Pods/Target Support Files/Pods-抹茶美妆/Pods-抹茶美妆.release.xcconfig"; sourceTree = "<group>"; };
+		C8700CE5D1ECDA31EFD3F57B /* libPods-抹茶美妆.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-抹茶美妆.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9F6E2080647FF40F921EF9 /* libPods-抹茶美妆.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +144,15 @@
 				0CB597DE1D2EC8FE00F0CB63 /* 抹茶美妆Tests */,
 				0CB597E91D2EC8FE00F0CB63 /* 抹茶美妆UITests */,
 				0CB597C31D2EC8FE00F0CB63 /* Products */,
+				359E91E33A61941A8802EB30 /* Pods */,
+				790878B18BD5DABAB8103923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0CB597C31D2EC8FE00F0CB63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CB597C21D2EC8FE00F0CB63 /* 抹茶美妆.app */,
+				0CB597C21D2EC8FE00F0CB63 /* MCMZ.app */,
 				0CB597DB1D2EC8FE00F0CB63 /* 抹茶美妆Tests.xctest */,
 				0CB597E61D2EC8FE00F0CB63 /* 抹茶美妆UITests.xctest */,
 			);
@@ -181,6 +223,10 @@
 		0CDF626F1D2F575200C68874 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0C3949221D353657005FFE41 /* NSArray+Extension.h */,
+				0C3949231D353657005FFE41 /* NSArray+Extension.m */,
+				0C3949251D353A5F005FFE41 /* NSString+Extension.h */,
+				0C3949261D353A5F005FFE41 /* NSString+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -196,6 +242,11 @@
 		0CDF628A1D2F575200C68874 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				0C3949121D3532C0005FFE41 /* 茶社.json */,
+				0C3949131D3532C0005FFE41 /* 首页.json */,
+				0C3949141D3532C0005FFE41 /* 首页分类.json */,
+				0C3949151D3532C0005FFE41 /* 值得买.json */,
+				0C3949161D3532C0005FFE41 /* 值得买类别.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -301,6 +352,8 @@
 			children = (
 				0CF2FC9C1D301A0500628D5E /* MCHomeViewController.h */,
 				0CF2FC9D1D301A0500628D5E /* MCHomeViewController.m */,
+				0C623D061D34E27C00C0B868 /* MCTopicTableViewController.h */,
+				0C623D071D34E27C00C0B868 /* MCTopicTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +361,10 @@
 		0CF2FC711D2F91DB00628D5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0CF1D0431D33E88E00EB2E02 /* MCTopLabel.h */,
+				0CF1D0441D33E88E00EB2E02 /* MCTopLabel.m */,
+				0C3949071D3527F0005FFE41 /* MCTopicModel.h */,
+				0C3949081D3527F0005FFE41 /* MCTopicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -315,6 +372,12 @@
 		0CF2FC721D2F91DB00628D5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0C3949021D3527D4005FFE41 /* MCTopicCell.h */,
+				0C3949031D3527D4005FFE41 /* MCTopicCell.m */,
+				0C3949041D3527D4005FFE41 /* MCTopicCell.xib */,
+				0C39490A1D35287E005FFE41 /* MCTopicHeadView.h */,
+				0C39490B1D35287E005FFE41 /* MCTopicHeadView.m */,
+				0C39490D1D35288D005FFE41 /* MCTopicHeadView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -420,6 +483,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		359E91E33A61941A8802EB30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64F585E0050AD54EA60B484B /* Pods-抹茶美妆.debug.xcconfig */,
+				8B14D121144969213BE2357C /* Pods-抹茶美妆.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		790878B18BD5DABAB8103923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8700CE5D1ECDA31EFD3F57B /* libPods-抹茶美妆.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -427,9 +507,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB597EF1D2EC8FE00F0CB63 /* Build configuration list for PBXNativeTarget "抹茶美妆" */;
 			buildPhases = (
+				865BC245C10F3963A20F59B7 /* 📦 Check Pods Manifest.lock */,
 				0CB597BE1D2EC8FE00F0CB63 /* Sources */,
 				0CB597BF1D2EC8FE00F0CB63 /* Frameworks */,
 				0CB597C01D2EC8FE00F0CB63 /* Resources */,
+				A53E55090A74EAE6A6CABC9E /* 📦 Embed Pods Frameworks */,
+				3DFCC296279B70C570A61959 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,7 +520,7 @@
 			);
 			name = "抹茶美妆";
 			productName = "抹茶美妆";
-			productReference = 0CB597C21D2EC8FE00F0CB63 /* 抹茶美妆.app */;
+			productReference = 0CB597C21D2EC8FE00F0CB63 /* MCMZ.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0CB597DA1D2EC8FE00F0CB63 /* 抹茶美妆Tests */ = {
@@ -488,6 +571,7 @@
 				TargetAttributes = {
 					0CB597C11D2EC8FE00F0CB63 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VT8GB485LH;
 					};
 					0CB597DA1D2EC8FE00F0CB63 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -525,8 +609,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB597D51D2EC8FE00F0CB63 /* LaunchScreen.storyboard in Resources */,
+				0C39490E1D35288D005FFE41 /* MCTopicHeadView.xib in Resources */,
+				0C39491A1D3532C0005FFE41 /* 值得买.json in Resources */,
 				0CB597D21D2EC8FE00F0CB63 /* Assets.xcassets in Resources */,
+				0C3949171D3532C0005FFE41 /* 茶社.json in Resources */,
+				0C39491B1D3532C0005FFE41 /* 值得买类别.json in Resources */,
+				0C3949181D3532C0005FFE41 /* 首页.json in Resources */,
+				0C3949191D3532C0005FFE41 /* 首页分类.json in Resources */,
 				0CB597D01D2EC8FE00F0CB63 /* Main.storyboard in Resources */,
+				0C3949061D3527D4005FFE41 /* MCTopicCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +637,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DFCC296279B70C570A61959 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-抹茶美妆/Pods-抹茶美妆-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865BC245C10F3963A20F59B7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A53E55090A74EAE6A6CABC9E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-抹茶美妆/Pods-抹茶美妆-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CB597BE1D2EC8FE00F0CB63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -553,12 +692,19 @@
 			files = (
 				0CF2FCA41D301A3000628D5E /* MCBestBuyViewController.m in Sources */,
 				0CF2FC9E1D301A0500628D5E /* MCHomeViewController.m in Sources */,
+				0CF1D0451D33E88E00EB2E02 /* MCTopLabel.m in Sources */,
+				0C3949051D3527D4005FFE41 /* MCTopicCell.m in Sources */,
+				0C3949091D3527F0005FFE41 /* MCTopicModel.m in Sources */,
 				0CDF628C1D2F575200C68874 /* AppDelegate.m in Sources */,
+				0C3949241D353657005FFE41 /* NSArray+Extension.m in Sources */,
 				0CB597C71D2EC8FE00F0CB63 /* main.m in Sources */,
 				0CF2FCB01D301AEE00628D5E /* MCTabBarController.m in Sources */,
 				0CF2FCA11D301A1D00628D5E /* MCCommunityViewController.m in Sources */,
 				0CF2FCA71D301A4000628D5E /* MCPostViewController.m in Sources */,
+				0C3949271D353A5F005FFE41 /* NSString+Extension.m in Sources */,
 				0CF2FCAD1D301A7100628D5E /* MCProfileViewController.m in Sources */,
+				0C623D081D34E27C00C0B868 /* MCTopicTableViewController.m in Sources */,
+				0C39490C1D35287E005FFE41 /* MCTopicHeadView.m in Sources */,
 				0CF2FC9B1D3019EF00628D5E /* MCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,27 +844,33 @@
 		};
 		0CB597F01D2EC8FE00F0CB63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F585E0050AD54EA60B484B /* Pods-抹茶美妆.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "抹茶美妆/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "抹茶美妆/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MCMZ;
 			};
 			name = Debug;
 		};
 		0CB597F11D2EC8FE00F0CB63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B14D121144969213BE2357C /* Pods-抹茶美妆.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "抹茶美妆/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "抹茶美妆/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MCMZ;
 			};
 			name = Release;
 		};

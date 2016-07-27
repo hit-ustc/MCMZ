@@ -1,0 +1,10 @@
+platform :ios, '7.0'
+
+target '抹茶美妆' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'MJExtension'
+
+end
